@@ -1,0 +1,143 @@
+:root {
+    --grey: #333;
+}
+
+body {
+    font-family: "Space Mono", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 25px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+
+.scare-image .scarecrow {
+    width: 400px;
+    height: auto;
+}
+
+.not-found {
+    font-family: "Inconsolata";
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--grey);
+}
+
+/* I have bad news for you */
+
+.bad-news {
+    width: 586px;
+    height: 100%;
+    font-size: 2.5rem;
+    line-height: 75px;
+    letter-spacing: -0.035em;
+    color: var(--grey);
+}
+
+.bad-news a button {
+    cursor: pointer;
+}
+
+.bad-news h2 {
+    margin: 0;
+}
+
+/* The page you are looking for might be removed or is temporarily unavailable */
+
+.the-page {
+    width: 381px;
+    height: 108px;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    background-color: var(--grey);
+    color: #fff;
+    border: none;
+    font-family: "Space Mono";
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: var(--grey);
+    background-color: #fff;
+    border: 1px solid var(--grey);
+    font-weight: bold;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 17px;
+    padding: 20px 0;
+    text-align: center;
+    color: var(--grey);
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .scare-image .scarecrow {
+        width: 325px;
+    }
+
+    .bad-news {
+        margin: 2rem 0;
+        font-size: 30px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .the-page {
+        width: 90%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    button {
+        margin: 35px 0;
+        width: 100%;
+    }
+    footer {
+        position: initial;
+    }
+    header {
+        margin: 0;
+        padding: 0 10px;
+
+    }
+     
+
+
+}
