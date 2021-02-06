@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="#">
-      Demo
+    <a href="https://chrysalynn.github.io/dev-challenge/">
+      Live Demo
     </a>
     <span> | </span>
-    <a href="https://chrysalynn.github.io/dev-challenge/">
+    <a href="https://devchallenges.io/solutions/usSeZ1ZFG2QoJoapGeHd">
       Solution
     </a>
     <span> | </span>
@@ -23,13 +23,6 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
